@@ -1,0 +1,4 @@
+Tell me please. When you create a new domain in the vexim web interface, the following error POPs up:
+Fatal error: Uncaught Error: Call to undefined function openssl_random_pseudo_bytes() in /usr/local/www/vexim/config/functions.php:186 Stack trace: #0 /usr/local/www/vexim/config/functions.php(171): get_random_bytes(123) #1 /usr/local/www/vexim/siteaddsubmit.php(129): crypt_password('***********') 
+#2 {main} thrown in /usr/local/www/vexim/config/functions.php on line 186
+I don't know how to solve it.
